@@ -44,7 +44,7 @@ app.post('/mercadopago', function (req, res) {
         };
         mercadopago.payment.save(req.body.pago)
             .then(payment => {
-                res.send(payment.body)
+                res.send(payment.data)
                 console.log(payment)
             })
             .catch(error => {

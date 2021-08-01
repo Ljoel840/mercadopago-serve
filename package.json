@@ -1,0 +1,22 @@
+{
+  "name": "api_mercadopago_serve",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon ./serve/index.js",
+    "start": "node ./serve/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mercadopago": "^1.5.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.10"
+  }
+}
